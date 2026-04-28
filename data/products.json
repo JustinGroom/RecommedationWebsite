@@ -4,17 +4,34 @@
       "name": "Linen Drawstring Shorts",
       "brand": "Everlane",
       "price": "$68",
+      "rating": 4.7,
       "affiliateUrl": "https://example.com/affiliate/linen-shorts",
       "image": "https://images.unsplash.com/photo-1591195853828-11db59a44f6b?auto=format&fit=crop&w=1200&q=80",
-      "reason": "Breathable fabric and minimalist styling that fits summer capsule wardrobes."
+      "reason": "Breathable fabric and minimalist styling that fits summer capsule wardrobes.",
+      "pros": ["Lightweight linen blend", "Smart-casual versatility"],
+      "cons": ["Needs steaming after washing"]
     },
     {
       "name": "Performance Chino Shorts",
       "brand": "Bonobos",
       "price": "$89",
+      "rating": 4.6,
       "affiliateUrl": "https://example.com/affiliate/performance-chino-shorts",
       "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=1200&q=80",
-      "reason": "Wrinkle resistance plus stretch makes them ideal for travel and commuting."
+      "reason": "Wrinkle resistance plus stretch makes them ideal for travel and commuting.",
+      "pros": ["4-way stretch", "Office-ready look"],
+      "cons": ["Slightly premium price"]
+    },
+    {
+      "name": "Cloudfoam Street Sneakers",
+      "brand": "Adidas",
+      "price": "$95",
+      "rating": 4.5,
+      "affiliateUrl": "https://example.com/affiliate/cloudfoam-sneakers",
+      "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80",
+      "reason": "Comfort-forward daily sneaker with broad style compatibility.",
+      "pros": ["Great arch comfort", "Good value"],
+      "cons": ["Less breathable than mesh options"]
     }
   ],
   "fragrance": [
@@ -22,17 +39,34 @@
       "name": "Bleu de Chanel EDP",
       "brand": "Chanel",
       "price": "$138",
+      "rating": 4.8,
       "affiliateUrl": "https://example.com/affiliate/bleu-de-chanel",
       "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1200&q=80",
-      "reason": "A dependable all-season scent with broad appeal and strong longevity."
+      "reason": "A dependable all-season scent with broad appeal and strong longevity.",
+      "pros": ["Excellent longevity", "Versatile profile"],
+      "cons": ["Common signature scent"]
     },
     {
       "name": "Dior Sauvage Elixir",
       "brand": "Dior",
       "price": "$180",
+      "rating": 4.7,
       "affiliateUrl": "https://example.com/affiliate/sauvage-elixir",
       "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=1200&q=80",
-      "reason": "Rich spice profile that performs especially well in evening settings."
+      "reason": "Rich spice profile that performs especially well in evening settings.",
+      "pros": ["Very strong projection", "Premium bottle quality"],
+      "cons": ["Can be overpowering in heat"]
+    },
+    {
+      "name": "Y Eau de Parfum",
+      "brand": "YSL",
+      "price": "$120",
+      "rating": 4.5,
+      "affiliateUrl": "https://example.com/affiliate/y-edp",
+      "image": "https://images.unsplash.com/photo-1523293182086-7651a899d37f?auto=format&fit=crop&w=1200&q=80",
+      "reason": "Mass-appeal scent profile with reliable performance for office and dates.",
+      "pros": ["Easy to wear", "High compliment factor"],
+      "cons": ["Not very unique"]
     }
   ],
   "tech": [
@@ -40,17 +74,34 @@
       "name": "Sony WH-1000XM6",
       "brand": "Sony",
       "price": "$399",
+      "rating": 4.8,
       "affiliateUrl": "https://example.com/affiliate/sony-wh1000xm6",
       "image": "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&w=1200&q=80",
-      "reason": "Top-tier noise cancellation and battery life for hybrid workers."
+      "reason": "Top-tier noise cancellation and battery life for hybrid workers.",
+      "pros": ["Class-leading ANC", "Excellent battery"],
+      "cons": ["Premium price"]
     },
     {
       "name": "Kindle Paperwhite",
       "brand": "Amazon",
       "price": "$149",
+      "rating": 4.7,
       "affiliateUrl": "https://example.com/affiliate/kindle-paperwhite",
       "image": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1200&q=80",
-      "reason": "High conversion evergreen product with year-round search demand."
+      "reason": "High conversion evergreen product with year-round search demand.",
+      "pros": ["Long battery", "Great readability"],
+      "cons": ["No color display"]
+    },
+    {
+      "name": "Apple Watch Series 12",
+      "brand": "Apple",
+      "price": "$429",
+      "rating": 4.6,
+      "affiliateUrl": "https://example.com/affiliate/apple-watch-series-12",
+      "image": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?auto=format&fit=crop&w=1200&q=80",
+      "reason": "Strong ecosystem value and excellent health tracking for mainstream users.",
+      "pros": ["Deep iPhone integration", "Top fitness tracking"],
+      "cons": ["Best for Apple users only"]
     }
   ]
 }

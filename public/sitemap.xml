@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://example.com/index.html</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://example.com/seo-playbook.html</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://example.com/disclosure.html</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://example.com/categories/fashion.html</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://example.com/categories/fragrance.html</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://example.com/categories/tech.html</loc><lastmod>2026-04-28</lastmod></url>
   <url><loc>https://example.com/articles/best-shorts-for-the-summer-2026.html</loc><lastmod>2026-04-28</lastmod></url>
   <url><loc>https://example.com/articles/top-10-mens-fragrances-2026.html</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://example.com/articles/best-sneakers-for-walking-all-day-2026.html</loc><lastmod>2026-04-28</lastmod></url>
+  <url><loc>https://example.com/articles/best-noise-canceling-headphones-2026.html</loc><lastmod>2026-04-28</lastmod></url>
   <url><loc>https://example.com/articles/ai-wearables-2026.html</loc><lastmod>2026-04-28</lastmod></url>
   <url><loc>https://example.com/articles/summer-travel-style-2026.html</loc><lastmod>2026-04-28</lastmod></url>
-  <url><loc>https://example.com/</loc><lastmod>2026-04-28</lastmod></url>
 </urlset>

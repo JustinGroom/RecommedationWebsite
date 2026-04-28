@@ -1,0 +1,31 @@
+{
+  "siteName": "Recco",
+  "baseUrl": "https://example.com",
+  "tagline": "Expert buying guides for style, grooming, and tech",
+  "primaryGoal": "maximize affiliate and ad revenue with trustworthy editorial",
+  "authors": [
+    {
+      "name": "Marcus Lane",
+      "role": "Style Editor",
+      "bio": "Men's style writer focused on fit, materials, and warm-weather dressing.",
+      "expertise": ["menswear", "summer essentials"]
+    },
+    {
+      "name": "Elena Park",
+      "role": "Grooming Editor",
+      "bio": "Fragrance and grooming specialist covering premium and affordable scents.",
+      "expertise": ["fragrance", "grooming"]
+    },
+    {
+      "name": "Derek Shah",
+      "role": "Tech Commerce Editor",
+      "bio": "Consumer electronics analyst focused on products with high user retention.",
+      "expertise": ["consumer tech", "wearables"]
+    }
+  ],
+  "adSlots": [
+    "Leaderboard 970x250",
+    "Billboard 728x90",
+    "In-article rectangle 300x250"
+  ]
+}
