@@ -1,0 +1,45 @@
+:root {
+  --bg: #090d14;
+  --panel: #121a27;
+  --line: #26364f;
+  --text: #e8eef8;
+  --muted: #a7b9d3;
+  --accent: #7cc4ff;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  color: var(--text);
+  background: radial-gradient(circle at top right, #14243a 0%, var(--bg) 45%);
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.5;
+}
+a { color: var(--accent); text-decoration: none; }
+.hero { padding: 2rem 6vw 4rem; border-bottom: 1px solid var(--line); }
+nav { display: flex; align-items: center; gap: 1rem; }
+.logo { margin-right: auto; font-weight: 800; letter-spacing: .08em; }
+.hero-content { max-width: 760px; margin-top: 4.5rem; }
+.eyebrow { text-transform: uppercase; letter-spacing: .08em; color: var(--muted); font-size: .8rem; }
+h1 { font-size: clamp(2rem, 4.8vw, 3.9rem); line-height: 1.1; margin-bottom: .8rem; }
+.cta { display: inline-block; background: var(--accent); color: #041529; padding: .75rem 1.1rem; border-radius: 999px; font-weight: 700; }
+.grid { padding: 2rem 6vw; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.story-card, .product-card, .author-box, .comparison { background: rgba(255,255,255,.03); border: 1px solid var(--line); border-radius: 14px; padding: 1rem; }
+.story-card h3 { margin-top: .4rem; }
+.chip { margin: 0; color: var(--muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .06em; }
+.keyword { color: var(--muted); font-size: .86rem; }
+.site-header { padding: 1rem 6vw; display: flex; gap: 1rem; border-bottom: 1px solid var(--line); }
+.article-container { max-width: 980px; margin: 0 auto; padding: 1.5rem 1rem 3rem; }
+.lede { color: var(--muted); font-size: 1.08rem; max-width: 80ch; }
+.meta-row { display: flex; flex-wrap: wrap; gap: .8rem; color: var(--muted); font-size: .9rem; }
+.disclosure { background: #162338; border: 1px solid #325179; border-radius: 10px; padding: .7rem 1rem; }
+.product-card { display: grid; grid-template-columns: 220px 1fr; gap: 1rem; margin: 1rem 0; }
+.product-card img { width: 100%; height: 170px; object-fit: cover; border-radius: 10px; }
+.price { font-weight: 700; }
+.comparison table { width: 100%; border-collapse: collapse; font-size: .92rem; }
+.comparison th, .comparison td { border-bottom: 1px solid var(--line); text-align: left; padding: .55rem; vertical-align: top; }
+.strategy { padding: 1rem 6vw 4rem; max-width: 880px; }
+.ad-slot { margin: 1.5rem 6vw; text-align: center; color: var(--muted); border: 1px dashed #40618f; border-radius: 10px; padding: 1.2rem; background: #0e1828; }
+summary { cursor: pointer; }
+@media (max-width: 760px) {
+  .product-card { grid-template-columns: 1fr; }
+}
