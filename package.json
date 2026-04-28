@@ -1,0 +1,11 @@
+{
+  "name": "recommendation-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Automated affiliate-focused recommendation website",
+  "scripts": {
+    "fetch:trends": "node scripts/fetch-trends.mjs",
+    "build": "node scripts/build-site.mjs",
+    "start": "python3 -m http.server 8080 --directory public"
+  }
+}
